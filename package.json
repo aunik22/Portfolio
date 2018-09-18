@@ -1,0 +1,15 @@
+{
+  "name": "parallex-website",
+  "version": "1.0.0",
+  "description": "Aunik's Portfolio",
+  "main": "main.js",
+  "scripts": {
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "Aunik Ahmed",
+  "license": "ISC",
+  "homepage": "https://aunik22.github.io/Portfolio",
+  "dependencies": {
+    "gh-pages": "^2.0.0"
+  }
+}
