@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+    $(window).on('scroll', function () {
+      if ($(window).scrollTop()) {
+        $('nav').addClass('black');
+      }
+      else {
+        $('nav').removeClass('black');
+      }
+    })
+  </script>
+  <link rel="icon" type="png" href="images/favicon.png">
+  <title>Aunik Ahmed</title>
+</head>
+
+<body>
+
+  <div class="wrapper">
+    <nav>
+      <div class="logo"><a href="#mountain"><img src="images/logo1_transparent.png"></a></div>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#resume">R&Eacutesum&Eacute</a></li>
+        <li><a href="#project-page">Projects</a></li>
+        <li><a href="#contact-page">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+
+  <div id="mountain">
+    <div class="Header-Box">
+      <h2 id="intro-text">HI THERE, I'M AUNIK</h2>
+    </div>
+  </div>
+
+  <div class="part section-light">
+    <div class="first-block">
+      <h2 id="about">About Me</h2>
+      <p class="intro1">
+        I'm a junior at the University at Buffalo pursuing a Bachelor's degree in Computer Science. I love solving
+        problems and enjoy
+        challenges that require innovation and creativity. I have a passion for programming and am particularly
+        fascinated
+        with machine learning. Currently, I'm working as a remote intern for a start-up called Kryptonite and am
+        actively looking for internships for the upcoming spring and summer.
+      </p>
+      <p class="intro2">
+        My interests outside of programming lie in music and gaming. Whenever I'm not learning something new or honing
+        my
+        problem-solving skills, I usually practice my guitar, listen to music or grind out some rank matches on League
+        of
+        Legends.
+      </p>
+      <h3 class="summary">Summary</h3>
+      <div class="container">
+        <p class="intro3">
+          >>> Aunik.Summarize(3)
+        </p>
+        <p class="intro4">
+          ['Motivated to create meaningful software', 'Enjoys Collaboration', 'Self-Driven']
+        </p>
+      </div>
+    </div>
+
+
+    <div id="ny">
+      <div class="Header-Box">
+        <h2 id="Header-Text">R&EacuteSUM&Eacute</h2>
+      </div>
+    </div>
+
+    <div class="part section-dark">
+      <h2 id="resume"></h2>
+      <div class="container-resume">
+        <section>
+          <div>
+            <div><img src="images/portrait_small.jpg" alt="portrait" class="bio-image"></div>
+          </div>
+          <div>
+            <div class="name">Aunik Ahmed</div>
+            <div class="title">Junior Computer Science Student</div>
+            <div class="links">
+              <div class="link-item">
+                <i class="far fa-file-pdf"></i>
+                <a href="https://drive.google.com/open?id=1tBiy-953_eryQSJAX175O9DeWVFXSoJT" target="_blank" class="link-text">R&eacutesum&eacute.pdf</a>
+              </div>
+              <div class="link-item">
+                <i class="far fa-envelope"></i>
+                <a href="aunikahm@buffalo.edu" target="_blank" class="link-text">Email</a>
+              </div>
+              <div class="link-item">
+                <i class="fas fa-mobile-alt"></i>
+                <a href="tel:9294549088" target="_blank" class="link-text">9294549088</a>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">EDUCATION</div>
+          <div>
+            <div class="work">
+              <div class="work-title-container">
+                <div>
+                  <div class="work-company">University at Buffalo</div>
+                  <div class="job-title">Bachelors of Science in Computer Science</div>
+                  <div class="job-title"> Honors: Dean's List</div>
+                </div>
+                <div class="gpa">
+                  GPA - 3.91 <br>
+                  Expected - December 2019
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">EXPERIENCE</div>
+          <div>
+            <div class="work">
+              <div class="work-title-container">
+                <div>
+                  <div class="work-company">UB Nanosatellite</div>
+                  <div class="job-title">Software Tester</div>
+                </div>
+                <div>
+                  September 2018 - Present
+                </div>
+              </div>
+              <ul>
+                <li>&#9679; Writing unit tests for different modules of the flight software.</li>
+                <li>&#9679; Collaborating with the flight-software lead to code new modules in C++.</li>
+                <li>&#9679; Teaming together with other students to fix bugs in the software.</li>
+              </ul>
+            </div>
+
+            <div class="work">
+              <div class="work-title-container">
+                <div>
+                  <div class="work-company">Kryptonite</div>
+                  <div class="job-title">Software Engineer Intern</div>
+                </div>
+                <div>
+                  August 2018 - Present
+                </div>
+              </div>
+              <ul>
+                <li>&#9679; Working remotely with the lead developer to code trading algorithms in Python.</li>
+                <li>&#9679; Responsible for testing the algorithms on historical data.</li>
+                <li>&#9679; Researching the market to recommend solutions and find new trade algorithms.</li>
+              </ul>
+            </div>
+
+            <div class="work">
+              <div class="work-title-container">
+                <div>
+                  <div class="work-company">University at Buffalo</div>
+                  <div class="job-title">Extracurricular Research</div>
+                </div>
+                <div>
+                  June 2018 - August 2018
+                </div>
+              </div>
+              <ul>
+                <li>&#9679; Collaborated with a team on a project aimed to interactively teach fractions to students.</li>
+                <li>&#9679; Developed the app in Android Studio and wrote the algorithm for arduino.</li>
+                <li>&#9679; Successfully passed on the project for future teams to work on.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">SKILLS</div>
+          <div>
+            <div class="skills-container">
+              <ul>
+                <li>Python</li>
+                <li>C++</li>
+                <li>Java</li>
+                <li>C</li>
+              </ul>
+
+              <ul>
+                <li>Assembly</li>
+                <li>Ocaml</li>
+                <li>Javascript</li>
+                <li>Arduino</li>
+              </ul>
+
+              <ul>
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>SCSS</li>
+                <li>Latex</li>
+              </ul>
+
+            </div>
+          </div>
+        </section>
+
+        <section>
+          <div class="section-title">EXTRA - CURRICULAR ACTIVITIES</div>
+          <div>
+            <div class="work">
+              <div class="work-title-container">
+                <div>
+                  <div class="work-company">Lockdown V4</div>
+                  <div class="job-title">Network Defense Competition</div>
+                </div>
+                <div>
+                  April 2018
+                </div>
+              </div>
+              <ul>
+                <li>&#9679; Participated in this competition to learn more about network security.</li>
+                <li>&#9679; Team stood 5th.</li>
+              </ul>
+            </div>
+
+            <div class="work">
+              <div class="work-title-container">
+                <div>
+                  <div class="work-company">Google Kickstart</div>
+                  <div class="job-title">Coding Competition</div>
+                </div>
+                <div>
+                  September 2018
+                </div>
+              </div>
+              <ul>
+                <li>&#9679; Took part in the event to test my problem solving skills.</li>
+                <li>&#9679; Experienced programming under a time given time constraint.</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+      </div>
+    </div>
+
+
+    <div id="desk">
+      <div class="Header-Box">
+        <h2 id="Header-Text">PROJECTS</h2>
+      </div>
+    </div>
+    <h2 id="project-page"></h2>
+    <div class="part section-light">
+      <div class="pro">
+        <div class="item">
+          <a href="https://github.com/aunik22/CryptoBot" target="_blank">
+            <img src="images/project1.jpg" alt="Project">
+          </a>
+          <div class="btn-light">
+            <i class="fas fa-chess-king"></i> CryptoBot
+          </div>
+          <a href="https://github.com/aunik22/CryptoBot" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+          <div class="job2">A bot that trades Etheruem on Coinbase Pro. The trading logic is set on moving averages.
+            Tested the bot on historical data and made profits on paper money. Wrote the bot in Python and used the
+            Coinbase Pro API to make all the requests. Future plans for the project include the integration of more
+            trading algorithms, support for more currencies and testing on real money.</div>
+
+        </div>
+
+        <div class="item">
+          <a href="https://github.com/aunik22/Portfolio" target="_blank">
+            <img src="images/project2.jpg" alt="">
+          </a>
+          <div class="btn-light">
+            <i class="fas fa-chess-rook"></i> Portfolio
+          </div>
+          <a href="https://github.com/aunik22/Portfolio" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+          <div class="job2"> A responsive static website that serves as my online portfolio. Used HTML5 and CSS3 to
+            build
+            it. Future plans include keeping the portfolio updated and adding new features to the
+            website.
+          </div>
+        </div>
+
+        <div class="item">
+          <a href="https://github.com/CSE116-Spring2018/s18semesterproject-b5-team2" target="_blank">
+            <img src="images/project3.jpg" alt="">
+          </a>
+          <div class="btn-light">
+            <i class="fas fa-chess-queen"></i> Codenames
+          </div>
+          <a href="https://github.com/CSE116-Spring2018/s18semesterproject-b5-team2" target="_blank" class="btn-dark">
+            <i class="fab fa-github"></i> Github
+          </a>
+          <div class="job3">A board game written in Java. This was a semester-long project where we had to work in
+            teams
+            to build the game from scratch. Learned iterative software cycles, object-oriented programming and
+            version
+            control. Responsibilities included writing the test cases and parts of the game mechanics.
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div id="last">
+      <div class="Header-Box">
+        <h2 id="Header-Text">CONTACT ME</h2>
+      </div>
+    </div>
+
+    <div class="part section-dark">
+      <div class="boxes">
+        <div>
+          <span class="text-secondary">
+            Email:
+          </span> aunikahm@buffalo.edu
+        </div>
+
+        <div>
+          <span class="text-secondary">
+            Phone:
+          </span> +1(929) 454-9088
+        </div>
+
+        <h2 id="contact-page"></h2>
+
+        <div>
+          <span class="text-secondary">
+            Address:
+          </span> Buffalo, Ny
+        </div>
+      </div>
+      <div class="icons">
+        <a href="https://github.com/aunik22" target="_blank">
+          <i class="fab fa-github fa-2x"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/aunik-ahmed/" target="_blank">
+          <i class="fab fa-linkedin fa-2x"></i>
+        </a>
+        <a href="https://www.instagram.com/aunik_aficionado/?hl=en" target="_blank">
+          <i class="fab fa-instagram fa-2x"></i>
+        </a>
+      </div>
+    </div>
+
+    <footer>
+      &copy 2018 Aunik Ahmed
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
