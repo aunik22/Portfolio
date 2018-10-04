@@ -446,3 +446,119 @@ footer {
   background: #111111;
   color: #dddddd;
 }
+
+@media only screen and (max-width: 500px){
+  #mountain{
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+  }
+  
+  #ny {
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+  }
+  
+  #desk {
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+  }
+  
+  #last {
+    background-size: cover;
+    max-width: 100%;
+    background-position: center;
+  }
+
+  nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    padding: 10px 100px;
+    box-sizing: border-box;
+    transition: 0.3s;
+    overflow-y: hidden;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav.black {
+    background: rgba(0, 0, 0, 0.8);
+    height: 80px;
+    padding: 0px 60px;
+    z-index: 3;
+  }
+  
+  nav .logo {
+    margin-left: -70px;
+    height: 80px;
+    float: left;
+    font-size: 24px;
+    transition: 0.3s;
+  }
+  
+  nav ul {
+    list-style: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    list-style: none;
+  }
+  
+  nav ul li a {
+    line-height: 80px;
+    color: #151515;
+    padding: 12px 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 0.3s;
+  }
+  
+  nav.black ul li a {
+    color: #f4f4f4;
+  }
+  
+  .logo img {
+    max-width: 70%;
+    max-height: 70%;
+  }
+
+  .bio-image {
+    margin: auto;
+    border-radius: 50%;
+    border: #4875b4 3px solid;
+    width: 61px;
+  }
+
+  .skills-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0;
+    margin-bottom: 24px;
+  }
+  
+}
+
+@media only screen and (max-width: 768px){
+  
+}
+
+@media only screen and (min-width: 769px) and  (max-width: 1170px){
+  
+}
+
+@media onlyscreen and (min-width: 1171px){
+  
+}
+/* ;
+max-width: 768px;
+min-width: 769px; max-width: 1170px;
+min-width: 1171 px;
