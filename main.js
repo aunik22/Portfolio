@@ -9,6 +9,6 @@ window.addEventListener("scroll", function() {
     parallax1.style.backgroundPositionY = offset * 0.6 + "px";
     parallax2.style.backgroundPositionY = offset * 0.6 + "px";
     parallax3.style.backgroundPositionY = offset * 0.5 + "px";
-    parallax4.style.backgroundPositionY = offset * 0.4 + "px";
+    parallax4.style.backgroundPositionY = offset * 0.3 + "px";
   }
 });
